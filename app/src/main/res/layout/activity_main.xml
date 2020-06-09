@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"><![CDATA[
+
+   ]]><TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="EMI Calculator"
+    android:layout_marginHorizontal="30dp"
+    android:layout_marginVertical="15dp"
+    android:layout_gravity="top"
+    android:textSize="40sp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="30dp"
+        android:textSize="20sp"
+        android:text="Enter Principal"
+        />
+    <EditText
+        android:id="@+id/principal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginHorizontal="15dp"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edit_bg"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="20dp"
+        android:textSize="20sp"
+        android:text="Enter Rate Of Interest"
+
+        />
+    <EditText
+        android:id="@+id/interest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginHorizontal="15dp"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edit_bg"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="20dp"
+        android:text="Enter number of Month"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/months"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginHorizontal="15dp"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edit_bg"
+        />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginVertical="20dp"
+        android:text="@string/calculateEMI"
+        android:background="@drawable/btn_bg"
+        android:onClick="calculateEMI"
+        android:textColor="#F8F1F1"
+        tools:ignore="OnClick" />
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/edit_bg"
+        android:padding="40dp"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ashma EMI Calculator</string>
+    <string name="calculateEMI">Calculate EMI</string>
+</resources>
